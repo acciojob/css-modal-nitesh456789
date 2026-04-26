@@ -2,35 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Modal</title>
+    <title>Portfolio</title>
 
-    <!-- Link CSS -->
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Button -->
-    <button id="openModal">Open Modal</button>
+    <!-- Heading -->
+    <h1 role="heading">Nitesh Kumar</h1>
 
-    <!-- Modal -->
-    <div class="modal" id="modal">
-        <div class="modal-content">
+    <!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#">Home</a></li>
+            <li role="listitem"><a href="#">Projects</a></li>
+            <li role="listitem"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-            <div class="modal-header">
-                <h2>Modal Header</h2>
-                <span class="close-modal">&times;</span>
-            </div>
+    <!-- Image -->
+    <img src="https://via.placeholder.com/150" alt="Profile Image" role="img">
 
-            <div class="modal-body">
-                <p>Modal Body Content</p>
-            </div>
+    <!-- Description -->
+    <p>
+        Hello! I am a web developer skilled in HTML, CSS, and JavaScript.
+    </p>
 
-        </div>
-    </div>
-
-    <!-- Link JS -->
-    <script src="script.js"></script>
+    <!-- Skills List -->
+    <ul role="list">
+        <li role="listitem">HTML</li>
+        <li role="listitem">CSS</li>
+        <li role="listitem">JavaScript</li>
+    </ul>
 
 </body>
 </html>
