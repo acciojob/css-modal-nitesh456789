@@ -10,10 +10,8 @@ closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
-modal.addEventListener("click", () => {
-  modal.style.display = "none";
-});
-
-document.querySelector(".modal-content").addEventListener("click", (e) => {
-  e.stopPropagation();
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
 });
