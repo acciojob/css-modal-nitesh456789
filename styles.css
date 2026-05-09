@@ -2,13 +2,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#openModal {
-  padding: 10px 20px;
-  background-color: lightgray;
-  text-decoration: none;
-  color: black;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -17,10 +10,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
-}
-
-.modal:target {
-  display: block;
 }
 
 .modal-content {
@@ -37,7 +26,5 @@ body {
 }
 
 .close-modal {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
+  cursor: pointer;
 }
