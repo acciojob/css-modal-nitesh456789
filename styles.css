@@ -4,7 +4,9 @@ body {
 
 #openModal {
   padding: 10px 20px;
-  cursor: pointer;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
 }
 
 .modal {
@@ -14,15 +16,18 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal:target {
+  display: block;
 }
 
 .modal-content {
   background-color: white;
   width: 300px;
-  margin: 15% auto;
+  margin: 100px auto;
   padding: 20px;
-  border-radius: 5px;
 }
 
 .modal-header {
@@ -32,8 +37,7 @@ body {
 }
 
 .close-modal {
-  border: none;
-  background: none;
-  font-size: 22px;
-  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
